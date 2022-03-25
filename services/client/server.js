@@ -23,7 +23,7 @@ var redis = require('socket.io-redis');
 io.adapter(redis({ host: config.REDIS_ENDPOINT, port: 6379 }));
 
 var Presence = require('./lib/presence');
-var User = require('./lib/user');
+var User = require('./lib/user').default;
 var Message = require('./lib/message');
 
 // Lower the heartbeat timeout (helps us expire disconnected people faster)
