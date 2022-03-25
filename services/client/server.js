@@ -113,33 +113,25 @@ io.on('connection', function(socket) {
     return callback(null, [
       {
         id: 'general',
-        name: 'General AWS',
-        preview: 'General AWS discussion',
-        image: '/images/aws.jpg',
+        name: 'Soho Support',
+        preview: 'Boohoo Soho support team discussion',
+        image: '/images/boohoo.jpg',
         status: 'none',
         onlineCount: 0
       },
       {
-        id: 'fargate',
-        name: 'AWS Fargate',
-        preview: 'Containers without instances',
-        image: '/images/fargate.png',
+        id: 'firstline',
+        name: '1st Line',
+        preview: 'Soho 1st line team',
+        image: '/images/boohoo.jpg',
         status: 'none',
         onlineCount: 0
       },
       {
-        id: 'eks',
-        name: 'AWS EKS',
-        preview: 'AWS managed Kubernetes masters',
-        image: '/images/eks.png',
-        status: 'none',
-        onlineCount: 0
-      },
-      {
-        id: 'ecs',
-        name: 'AWS ECS',
-        preview: 'AWS container orchestrator',
-        image: '/images/ecs.png',
+        id: 'secondline',
+        name: '2nd Line',
+        preview: 'Soho 2nd line team',
+        image: '/images/boohoo.jpg',
         status: 'none',
         onlineCount: 0
       }
