@@ -5,11 +5,11 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #290404;
+  background: #042029;
   font-family: "proxima-nova", "Source Sans Pro", sans-serif;
   font-size: 1em;
   letter-spacing: 0.1px;
-  color: #3e325a;
+  color: #32465a;
   text-rendering: optimizeLegibility;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   -webkit-font-smoothing: antialiased;
@@ -54,7 +54,7 @@ a:hover {
   max-width: 340px;
   width: 40%;
   height: 100%;
-  background: #3d2b11;
+  background: #2c3e50;
   color: #f5f5f5;
   overflow: hidden;
   position: relative;
@@ -104,7 +104,7 @@ a:hover {
 }
 #frame #sidepanel .rooms ul li.room.active {
   background: #32465a;
-  border-right: 5px solid #001aff;
+  border-right: 5px solid #FF9900;
 }
 #frame #sidepanel .rooms ul li.room.active span.room-status {
   border: 2px solid #32465a !important;
