@@ -115,7 +115,7 @@ io.on('connection', function(socket) {
         id: 'general',
         name: 'Soho Support',
         preview: 'Boohoo Soho support team discussion',
-        image: '/images/boohoo.jpg',
+        image: '/images/boohoo.png',
         status: 'none',
         onlineCount: 0
       },
@@ -123,7 +123,7 @@ io.on('connection', function(socket) {
         id: 'firstline',
         name: '1st Line',
         preview: 'Soho 1st line team',
-        image: '/images/boohoo.jpg',
+        image: '/images/boohoo.png',
         status: 'none',
         onlineCount: 0
       },
@@ -131,7 +131,7 @@ io.on('connection', function(socket) {
         id: 'secondline',
         name: '2nd Line',
         preview: 'Soho 2nd line team',
-        image: '/images/boohoo.jpg',
+        image: '/images/boohoo.png',
         status: 'none',
         onlineCount: 0
       }
